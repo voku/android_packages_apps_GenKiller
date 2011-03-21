@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="txt_kill">Kill all but locked</string>
+    <string name="txt_menu_kill">Kill</string>
+    <string name="txt_show_locked">Show locked</string>
+    <string name="txt_hide_locked">Hide locked</string>
+    <string name="txt_lock_summary">Click to lock/unlock in memory, long-press to kill:</string>
+    <string name="app_name">GenKiller</string>
+</resources>

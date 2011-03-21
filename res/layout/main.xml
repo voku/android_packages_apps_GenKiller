@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:paddingTop="10dip"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<LinearLayout
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:gravity="center">
+		<LinearLayout android:layout_weight="1" android:gravity="center_horizontal"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<Button android:id="@+id/btnKill"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:text="@string/txt_kill" />
+		</LinearLayout>
+		<ToggleButton android:id="@+id/btnShowHide"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:textOn="@string/txt_hide_locked" android:textOff="@string/txt_show_locked"
+            android:layout_margin="5dip" android:width="100dip" />
+	</LinearLayout>
+<TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/txt_lock_summary"/>
+<ListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+</LinearLayout>
